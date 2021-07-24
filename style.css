@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F2F3F5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.h2,
+.h5 {
+    margin-bottom: -5px!important;
+    font-weight: bolder;
+}
+
+.fa {
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.fas {
+    color: #816DE3;
+    padding-right: 10px;
+}
+
+.spacer {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    margin: 40px 0;
+    display: block;
+    visibility: hidden;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+    border: none;
+}
+
+/************************************************ Navbar ************************************************ */
+
+.navbar {
+    background-color: #000;
+}
+
+.navbar input[type='search'] {
+    border: 0;
+    border-bottom: 1px solid #0E0E0E;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #0E0E0E;
+}
+
+
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+}
+
+.icon {
+    padding: 8px;
+    min-width: 50px;
+    color: #808080;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* #open {
+    padding: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+} */
+
+/************************************* Streams progress Area  ********************************************************/
+
+.head-text {
+    margin: 32px 0;
+}
+
+.progress-status {
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.progress-section {
+    background-color: #0E0E0E;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.due-date {
+    background-color: #0E0E0E;
+    padding: 5px 5px;
+    font-size: 12px!important;
+    border-radius: 3px;
+}
+
+.progress-bar-container:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.progress-bar-container {
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 12px!important;
+}
+
+.progress-bar {
+    width: auto;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent !important;
+}
+
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: #816DE3;
+    border-radius: 5px;
+}
+
+
+.status {
+    width: 50%
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #816DE3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #ffffff
+}
+
+/********************************* Live Streams,Streams and Zones, Resource Statices ******************************************************/  
+
+
+.fake-img {
+    position: relative;
+    background-color: #F6F6F6;
+    color: #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.active-img {
+    background-color: #000;
+    text-align: center;
+}
+
+.bg-nocount {
+    background-color: #bbb;
+}
+
+.option-title {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stats {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.stats2 {
+    font-size: 14px;
+    color: #808080;
+    padding-right: 25px;
+    font-weight: lighter;
+}
+
+.active-font {
+    color: #816DE3;
+    font-weight: bold;
+}
+
+.muted {
+    color: #808080;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.bg-active {
+    background-color: #816DE3;
+}
+
+.bg-selected {
+    background-color: #3A19D9!important;
+}
+
+
+/********************************************** Media Queries ********************************************/
+
+@media only screen and (max-width: 750px) {
+    .fake-img {
+        margin: 20px;
+        padding: 45px;
+    }
+
+    .btn {
+        margin-bottom: 15px;
+    }
+
+    .progress-bar-container {
+        letter-spacing: 0;
+    }
+  }
+
+
+  
+@media only screen and (max-width: 350px) {
+    .progress-bar-container {
+        letter-spacing: -1px;
+    }
+
+     .input-icons {
+        display: none;
+    } 
+    
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .stats {
+        font-size: 13px;
+    }
+  }
+
